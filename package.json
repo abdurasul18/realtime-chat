@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build --output public",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -18,4 +18,5 @@
     "deepmerge": "^4.2.2",
     "sass": "^1.32.13"
   }
+
 }
